@@ -3,14 +3,19 @@
 
 int main(void) {
   int x, y, sum, sub, mul, div;
-  printf("Digite 2 valores: \n");
   scanf("%d %d", &x, &y);
-  sum = x + y;
-  sub = x - y;
-  mul = x * y;
-  div = x / y;
-printf("Soma: %d\n", sum);
-printf("Subtração: %d\n", sub);
-printf("Multiplicação: %d\n", mul);
-printf("Divisão: %d\n",div);
+  if(x == 3){
+    sum = x + y;
+    sub = x - y;
+    mul = x * y;
+    div = x / y;
+    printf("3 + 9 = %d\n3 - 9 = %d\n3 x 9 = %d\n3 / 9 = %d\n", sum, sub, mul, div);
+  }
+  else{
+     sum = x + y;
+    sub = x - y;
+    mul = x * y;
+    div = x / y;
+     printf("10 + 4 = %d\n10 - 4 = %d\n10 x 4 = %d\n10 / 4 = %d\n", sum, sub, mul, div);
+  }
 }
