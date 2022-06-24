@@ -1,22 +1,20 @@
-hoje(data(10, junho, 2022)).
+hoje(data(09, junho, 2022)).
 
-pai(homer, bart).
-pai(homer, lisa).
-pai(homer, maggie).
-pai(ab, homer).
-pai(ab, herb).
-pai(clancy, marge).
-pai(clancy, patty).
-pai(clancy, selma).
+pai(erico, jose).
+pai(erico, arthur).
+pai(canhoto, erico).
+pai(canhoto, eduardo).
+pai(argemiro, miriam).
+pai(argemiro, michele).
 
-mae(marge, bart).
-mae(marge, lisa).
-mae(marge, maggie).
-mae(mona, homer).
-mae(jackie, marge).
-mae(jackie, patty).
-mae(jackie, selma).
-mae(selma, ling).
+mae(miriam, jose).
+mae(miriam, arthur).
+mae(neta, erico).
+mae(neta, eduardo).
+mae(gilsilene, miriam).
+mae(gilsilene, michele).
+mae(michele, bibi).
+mae(lourdes, argemiro).
 
 antecessor(X, Y) :- pai(X, Y).
 antecessor(X, Y) :- mae(X, Y).
